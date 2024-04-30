@@ -1,9 +1,9 @@
 import math
 
-# Noktaların Tanımlanması
+
 points = [(1, 2), (3, 5), (-2, 7), (8, -1)]
 
-# Öklid Mesafesi İçin Bir Fonksiyon Yazma
+# Öklid fonksiyonu
 def euclideanDistance(point1, point2):
     x1, y1 = point1
     x2, y2 = point2
