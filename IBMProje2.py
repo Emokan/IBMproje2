@@ -1,9 +1,9 @@
 import math
 
-
+# Noktaların Tanımlanması
 points = [(1, 2), (3, 5), (-2, 7), (8, -1)]
 
-# Öklid fonksiyonu
+# Öklid Mesafesi İçin Bir Fonksiyon Yazma
 def euclideanDistance(point1, point2):
     x1, y1 = point1
     x2, y2 = point2
@@ -23,6 +23,9 @@ for i in range(len(points)):
             min_points = (points[i], points[j])
 
 # Minimum Mesafenin Bulunması ve İlgili Noktaların Yazdırılması
-print("Minimum mesafe:", min_distance)
-print("İlgili noktalar:", min_points)
+print("En yakın iki nokta arasındaki mesafe:", min_distance)
+print("Bu noktalar:")
+for point in min_points:
+    print(point)
+
 
